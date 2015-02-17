@@ -1,4 +1,4 @@
-Using docker and fig to set up hipache.
+# Using docker and fig to set up hipache.
 
 Make sure your server has [docker](https://www.docker.com/) and [fig](http://www.fig.sh/) installed.
 
@@ -10,5 +10,5 @@ $ fig up
 
 The `fig up` command will start the redis container and then the hipache container.
 
-Once both have successfully started, follow the hipache documentation to set up your virtual hosts in redis.
+Once both have successfully started, follow the [hipache](https://github.com/hipache/hipache) documentation to set up your virtual hosts in redis.
 
